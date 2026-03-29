@@ -1,0 +1,39 @@
+🔹 Understanding the Console
+
+The Console is like a testing area.
+
+It is used to:
+Print output
+Test small code snippets
+
+Example:
+console.log(10 + 20);
+Output → 30
+
+You can also log multiple values:
+console.log("Age:", 21);
+
+Console is mainly for developers.
+Users will not see this output.
+
+🔹 Comments in JavaScript
+
+Comments are ignored by JavaScript.
+
+They are used to:
+Explain code
+Disable code temporarily
+Improve readability
+
+Single Line Comment
+// This is a single line comment
+
+Multi Line Comment
+/*
+This is
+a multi-line
+comment
+*/
+
+Comments are for humans, not for computers.
+Good developers always write readable code with comments.

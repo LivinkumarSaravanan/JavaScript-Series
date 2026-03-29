@@ -1,0 +1,114 @@
+🔹 What is a Programming Language?
+
+A Programming Language is a way to communicate with a computer.
+
+Computers do not understand English.
+They do not understand Tamil.
+They only understand binary — 0s and 1s.
+
+Programming languages act as a bridge between humans and computers.
+
+We write code in a language we understand.
+The computer translates it into binary and executes it.
+
+🔹 What is JavaScript?
+
+JavaScript is a programming language used to make websites interactive.
+If HTML is the structure of a house,
+CSS is the design and styling,
+JavaScript is the electricity — it makes everything work.
+
+With JavaScript, you can:
+Show popups
+Validate forms
+
+JavaScript is:
+High-level
+Interpreted
+Dynamically typed
+Event-driven
+Programming Language.
+
+1️⃣ High-Level Language
+
+Simple Meaning:
+A high-level language is easy for humans to read and write.
+It looks almost like English.
+
+Example:
+
+JavaScript
+let a = 21;
+
+Compare this with binary:
+
+010101010101010
+
+Which one is easier?
+Obviously the first one.
+
+So,
+High-level language = Human-friendly language.
+
+JavaScript is high-level language.
+
+🔹 2️⃣ Interpreted Language
+
+Simple Meaning:
+An interpreted language runs line by line.
+It does not convert the whole program at once.
+
+Example:
+
+If your code has 10 lines,
+the interpreter reads 
+line 1 → executes
+then line 2 → executes
+then line 3 → executes
+.
+.
+then line 10 → executes
+
+Interpreted = Executes code step by step.
+(Unlike compiled languages like C, which convert the full code first.)
+
+
+🔹 3️⃣ Dynamically Typed
+
+This one is very important.
+Simple Meaning:
+You don’t need to tell the data type manually.
+
+Variable is a "named memory". we can store a data in it.
+Datatype ---> Type of information.
+
+Example in Java:
+String a = "Hello world";     //String //not a Dynamically Typed Language
+
+Example in JavaScript:
+let a = "Hello world";      // String  //Dynamically Typed Language
+
+JavaScript allows this.
+You don’t write:
+int a = 10;
+
+JavaScript automatically understands the type.
+So,
+Dynamically typed = Data type is decided automatically at runtime.
+
+🔹 4️⃣ Event-Driven Language
+
+This means JavaScript runs when something happens.
+That “something” is called an event.
+
+Event happens on Webpage ----> JS code runs.
+
+So, Event-Driven Programming Language.
+
+Facts
+---------
+🔹JavaScript was created in 1995 by
+Brendan Eich. He created it in just 10 days while working at
+Netscape
+
+🔹JavaScript is not Java. Both are Different Programming Language.

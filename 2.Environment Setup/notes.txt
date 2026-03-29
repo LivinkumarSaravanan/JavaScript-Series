@@ -1,0 +1,58 @@
+
+JavaScript Environment Setup
+--------------------------------
+
+🔹 Option 1 – Using Browser (Fastest Way)
+
+Open Google Chrome.
+Right click → Inspect → Go to Console tab.
+
+Type:
+
+console.log("Hello World")
+
+Press Enter.
+
+Congratulations 🎉
+You just executed JavaScript.
+
+This is the fastest way to test small code snippets.
+
+
+🔹 Option 2 – HTML File + Browser Using VS Code (Recommended)
+
+Download and install:
+Visual Studio Code
+Install Live Server extension
+
+Steps:
+
+Open VS Code
+
+Open your folder
+
+Create index.html
+
+Write code
+
+Go live Button
+
+Open "http:localhost:5500" on Browser 
+
+Rightclick---> inspect ---> console
+
+Now you have a proper development setup.
+
+🔹 Recommended Extensions
+Live Server
+Prettier
+
+Inside HTML:
+    
+<script src="script.js"></script>
+
+Inside script.js:
+
+console.log("External JS file connected");
+
+This is how professionals structure projects.
