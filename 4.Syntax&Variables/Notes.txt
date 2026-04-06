@@ -1,0 +1,197 @@
+🔹 1️⃣ What is Syntax?
+
+Syntax simply means the rules of writing code in a programming language.
+Just like English has grammar rules, programming languages also have rules.
+
+For example in English:
+Incorrect sentence:
+“Eat I apple”
+
+Correct sentence:
+“I eat an apple”
+
+Similarly in JavaScript, we must follow proper syntax.
+
+Example:
+console.log("Hi");
+
+Here:
+console → built-in object
+log() → method
+"Hello" → string value
+; → statement terminator
+
+If we break syntax rules, JavaScript throws an error.
+
+Example:
+console.log("Hello)
+
+This will produce an error because the quotation mark is not closed.
+So syntax helps the computer understand the code correctly.
+
+🔹 2️⃣ What is a Variable?
+
+A variable is a container used to store data.
+In programming, we constantly need to store information such as:
+user name
+age
+price
+score
+messages
+
+Variables allow us to store and reuse these values.
+
+Example:
+let a = "Michael Madana Kama Rajan";
+
+Here:
+a → variable name
+= → assignment operator
+"Michael Madana Kama Rajan" → value stored
+
+Now we can use the variable anywhere in the program.
+
+Example:
+console.log(a);
+Output:
+"Michael Madana Kama Rajan"
+
+🔹 3️⃣ Variable Declaration in JavaScript
+
+In JavaScript we can create variables using three keywords:
+
+var
+let
+const
+
+Each one behaves slightly differently.
+
+🔸 4️⃣ var (Old Way)
+
+var was the original way to declare variables in JavaScript.
+
+Example:
+var name = "Alex";
+
+Characteristics:
+✔ Can be updated(Re assignement)
+✔ Can be redeclared
+✔ Function scoped
+
+Example:
+var b = 2;
+b = 4
+
+console.log(b);
+Output:
+4
+
+var b = 2;
+var b = "Hi"
+
+console.log(b);
+Output:
+Hi
+JavaScript allows this.
+
+But this can cause unexpected bugs in large programs.
+Because of this, modern JavaScript developers rarely use var.
+
+🔸 5️⃣ let (Modern Variable)
+
+let was introduced in ES6 to fix problems of var.
+
+Example:
+let score = 50;
+
+Characteristics:
+✔ Can be updated
+❌ Cannot be redeclared in same scope
+✔ Block scoped
+
+Example:
+
+let a = 10;
+a = 20;
+This is allowed.
+
+But this is not allowed:
+let a = 10;
+let a = "Hi";
+JavaScript will throw an error.
+
+Use let when the value needs to change.
+
+🔸 6️⃣ const (Constant Variable)
+
+const is used when the value should not change.
+
+Example:
+const pi = 3.14;
+
+Characteristics:
+❌ Cannot update
+❌ Cannot redeclare
+✔ Block scoped
+
+Example:
+const pi = 3.14;
+pi = 3.1415;
+
+This will produce an error.
+So use const for values that should remain constant.
+
+Examples:
+API URLs
+Configuration values
+Mathematical constants
+
+🔹 7️⃣ Best Practice
+
+Modern JavaScript developers follow this rule:
+Use const by default.
+Use let only when the value needs to change.
+Avoid var in modern JavaScript.
+
+🔹 Variable Naming Rules in JavaScript
+
+1️⃣ Must start with:
+
+Letter (a–z, A–Z)
+
+Underscore _
+
+Dollar $
+
+❌ Cannot start with a number
+
+let 1name = "John"; // ❌ Invalid
+
+2️⃣ Can contain:
+
+Letters
+
+Numbers
+
+_ and $
+
+let user1 = "Alex"; // ✅
+
+3️⃣ No spaces allowed
+
+let user name = "Alex"; // ❌
+
+4️⃣ Case-sensitive
+
+let name = "John";
+let Name = "Alex"; // different variable
+
+5️⃣ Cannot use reserved keywords
+
+let let = 10; // ❌
+let function = "test"; // ❌
+
+6️⃣ Use meaningful names (best practice)
+
+let x = 10;        // ❌ bad
+let userAge = 10;  // ✅ good

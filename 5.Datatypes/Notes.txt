@@ -1,0 +1,88 @@
+🔹  What is a Data Type?
+A Data Type defines what kind of value a variable holds.
+
+🔹 Why Data Types are Important?
+Because operations depend on data types.
+
+Example:
+console.log(10 + 5);      // 15
+console.log("10" + "5");  // 105
+
+Same + operator, different results.
+
+Why?
+👉 Because data types are different.
+
+🔹 Types of Data in JavaScript
+JavaScript has 2 main categories:
+1. Primitive Data Types --- Number, String....
+2. Non-Primitive Data Types --- Arrays, Objects...
+
+1️⃣ Primitive Data Types
+These are simple, basic values. Stored directly in stack memory
+
+📦 What does “stored directly” mean?
+Example:
+let a = 10;
+let b = a;
+
+Now:
+a stores value 10
+b gets a copy of that value
+
+If you change b:
+b = 20;
+👉 a is still 10
+👉 b becomes 20
+
+So,
+Primitive values are copied by value.
+
+There are 7 primitive types:
+
+✅ 1. Number
+let age = 21;
+let price = 99.99;
+Includes:
+Integers
+Decimals
+
+✅ 2. String --> Sequence of characters. "", ''
+Text values
+let name = "Alex";
+let message = 'Hello';
+
+✅ 3. Boolean
+Only two values:
+let isLoggedIn = true;
+let isAdmin = false;
+Used for conditions.
+
+✅ 4. Undefined
+A variable declared but not assigned a value.
+let x;
+console.log(x); // undefined
+
+✅ 5. Null
+Represents intentional empty value
+let data = null;
+
+✅ 6. BigInt
+Used for very large numbers
+let big = 12345678901234567890n;
+(Not commonly used for beginners)
+
+
+2️⃣ Non-Primitive Data types
+
+Non-primitive data types store reference (address), not actual value.
+
+They are:
+Complex
+Stored in heap memory
+
+🔹 Types of Non-Primitive
+
+Object
+Array
+Function
