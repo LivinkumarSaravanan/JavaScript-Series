@@ -1,0 +1,141 @@
+1️⃣ What is an Operator?
+🧠 Simple Definition
+An operator is a symbol used to perform operations on values.
+
+Example:
+10 + 5
+10, 5 → operands
++ → operator
+
+So,
+Operator = performs action on data
+
+🔹 2️⃣ Types of Operators in JavaScript
+
+Main types:
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+Logical Operators
+Unary Operators
+Ternary Operator
+
+🔸 3️⃣ Arithmetic Operators
+
+Used for calculations
++   // Addition
+-   // Subtraction
+*   // Multiplication
+/   // Division
+%   // Modulus (remainder) --> 4%7 -->0*7 --> 4-0
+**  // Exponentiation
+Examples:
+console.log(10 + 5); // 15
+console.log(10 % 3); // 1
+console.log(2 ** 3); // 8
+
+🔥 Important Point
+"10" + 5   // "105"
+"10" - 5   // 5
+
+👉 + → concatenation (with string)
+👉 others → numeric conversion
+
+🔸 4️⃣ Assignment Operators
+
+Used to assign values
+=   // assign
++=  // add and assign
+-=  // subtract and assign
+*=  // multiply and assign
+/=  // divide and assign
+
+Example:
+let x = 10;
+x += 5; // x = x + 5
+console.log(x); // 15
+
+🔸 5️⃣ Comparison Operators (Boolean)
+
+Used to compare values
+==   // equal (loose) (only the values)
+===  // equal (strict) (only the values and datatypes)
+!=   // not equal (only the values)
+!==  // strict not equal (only the values and datatypes)
+>    // greater than
+<    // less than
+>=   // greater or equal
+<=   // less or equal
+🔥 Important Difference
+5 == "5"   // true
+5 === "5"  // false
+
+👉 == → checks value only
+👉 === → checks value + type
+
+🔸 6️⃣ Logical Operators (Boolean ---> Boolean)
+
+Used with conditions
+&&  // AND ---> true --> when both are true. false --> otherwise
+||  // OR --> true --> anyone is true. false --> both are false
+!   // NOT --> inverts boolean value
+
+
+Example:
+true && false // false
+true || false // true
+!true         // false
+🔥 Real Example
+let age = 20;
+
+if (age > 18 && age < 60) {
+  console.log("Eligible");
+}
+
+🔸 7️⃣ Unary Operators
+
+Works on single value
+++  // increment
+--  // decrement
+
+Example:
+let x = 5;
+x++; // 6
+🔥 Pre vs Post (Important)
+let x = 5;
+
+console.log(x++); // 5
+console.log(++x); // 7
+
+👉 Post → assign first, then increase
+👉 Pre → increase first, then assign
+
+🔸 8️⃣ Ternary Operator
+
+Shortcut for if-else
+
+condition ? value1 : value2
+Example:
+let age = 18;
+
+let result = age >= 18 ? "Adult" : "Minor";
+🔹 9️⃣ Operator Precedence (Short Intro)
+
+Some operators run first
+
+Example:
+
+10 + 5 * 2  // 20
+
+Why?
+
+👉 * runs before +
+
+(BODMAS rule)
+
+🔥 Quick Summary
+Operators perform actions
++ behaves differently with strings
+=== is safer than ==
+Logical operators control conditions
+Ternary is shortcut for if-else

@@ -1,0 +1,80 @@
+1️⃣ What is Type Conversion?
+
+🔹 Type Conversion (Explicit)
+Also called:
+Explicit Conversion
+Manual Type Conversion
+
+🧠 Simple Definition
+Type Conversion means manually changing one data type to another.
+
+👉 You explicitly tell JavaScript to convert.
+
+Number(data) ---> Number 
+String(data) ---> String 
+Boolean(data) ---> Boolean
+
+🔸 Examples
+String → Number
+let str = "100";
+let num = Number(str);
+
+console.log(num); // 100
+Number → String
+let num = 50;
+let str = String(num);
+
+console.log(str); // "50"
+Boolean Conversion
+Boolean(1);   // true
+Boolean(0);   // false
+Boolean("");  // false
+Boolean("Hi"); // true
+
+🔥 Key Point
+Type Conversion = Done by developer (manual)
+
+2️⃣ What is Type Coercion?
+🧠 Simple Definition
+Type Coercion means JavaScript automatically converts data types when needed.
+
+👉 You don’t tell it. JS decides.
+
+🔥 Example 1
+console.log("5" + 2);
+Output:
+"52"
+
+Why?
++ operator with string → converts number to string
+So: "5" + "2" → "52"
+🔥 Example 2
+console.log("5" - 2);
+Output:
+3
+
+Why?
+- operator works only with numbers
+So JS converts "5" → 5
+
+🔥 More Examples
+"10" * 2   // 20
+"10" / 2   // 5
+"10" - 5   // 5
+
+But:
+"10" + 5   // "105"
+
+
+🔹 5️⃣ Best Practice
+
+Avoid relying too much on coercion ❌
+Instead, use explicit conversion ✅
+
+Number("10") + 5  // 15 ✅
+Better than:
+"10" + 5  // "105" ❌ (unexpected sometimes)
+
+🎯 ONE-LINE DIFFERENCE
+Type Conversion = Manual
+Type Coercion = Automatic
